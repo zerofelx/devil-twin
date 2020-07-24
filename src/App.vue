@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <pandora-menu title="Pandora"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PandoraMenu from './components/Menu';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PandoraMenu
   }
 }
 </script>
