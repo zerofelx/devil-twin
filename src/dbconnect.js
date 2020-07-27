@@ -3,7 +3,7 @@ var mysql = require('mysql');
 var connection = mysql.createConnection({
     host: 'localhost',
     user: 'usuario',
-    password: 'et3ct26g2d',
+    password: 'test',
     database: 'pandora',
     port: 3306 
 })
