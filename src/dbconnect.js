@@ -5,7 +5,7 @@ var connection = mysql.createConnection({
     user: 'usuario',
     password: 'et3ct26g2d',
     database: 'pandora',
-    port: 3306
+    port: 3306 
 })
 
 connection.connect(function(err){
